@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playpen+Sans+Arabic:wght@100..800&family=Share+Tech&display=swap"
+        rel="stylesheet">
+
+
+    <!-- animate style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!-- header -->
+        <nav>
+            <!-- logo -->
+            <img class="logo" src="./images/logo-design-removebg-preview.png" alt="logo">
+
+            <!-- links -->
+            <ul>
+                <li class="list-items"><a class="links" href="#home">Home</a></li>
+                <li class="list-items"><a class="links" href="#about">About</a></li>
+                <li class="list-items"><a class="links" href="#skill">Skills</a></li>
+                <li class="list-items"><a class="links" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <div id="home-content">
+                <h1 class="animate__animated animate__bounce" id="username">I'am Binu <span id="lname">Babu</span></h1>
+                <p id="user-details">This is my official portfolio website to describe all <br>
+                    Details and work experience in Web Development</p>
+                <a href="./images/OFFL CV.pdf" download id="download">DOWNLOAD CV</a>
+            </div>
+            <div class="home-img">
+                <!-- shape -->
+                <img src="./images/shadow-removebg-preview.png" alt="shape" id="shape" class="group1">
+                <!-- girl -->
+                <img src="./images/man.png" alt="" id="girl" class="group1">
+            </div>
+
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div data-aos="fade-right" class="aboutimage">
+                    <img src="./images/5861769-removebg-preview.png" alt="" class="img1">
+                </div>
+                <div class="aboutcontent">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, repellat porro. Sapiente,
+                        provident quidem necessitatibus fuga atque quod doloribus eligendi, nesciunt iure id quis nisi
+                        non reprehenderit velit delectus quisquam.
+                        Voluptatibus quisquam at dolore voluptatem sunt aliquam placeat</p>
+                    <div class="information">
+                        <div class="infobox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>Binu Babu</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span> 7907651050</span>
+                        </div>
+                        <div class="infobox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>bbinu1411@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skill">
+            <div class="sectionhead">
+                <h2 class="mainhead">About Me</h2>
+                <span class="subhead">Introduction</span>
+            </div>
+            <div class="skillcontent">
+                <div class="progressbar">
+                    <!-- progress bar -->
+                    <div class="bars">
+                        <h3 class="barhead">HTML</h3>
+                        <span class="barpercentage">82%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">CSS</h3>
+                        <span class="barpercentage">92%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar cssbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">JS</h3>
+                        <span class="barpercentage">88%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar jsbar"></div>
+                    </div>
+                    <div class="bars">
+                        <h3 class="barhead">react</h3>
+                        <span class="barpercentage">95%</span>
+                        <div class="basebar"></div>
+                        <div  data-aos="fade-right"
+                        data-aos-offset="300"
+                        data-aos-easing="ease-in-sine" class="basebar reactbar"></div>
+                    </div>
+
+                </div>
+                <div data-aos="fade-left" class="skillimage">
+                    <img src="./images/WhatsApp Image 2025-05-30 at 11.20.07_9bccd51f.jpg" alt="" class="myskill">
+                </div>
+            </div>
+
+        </section>
+        <!-- contact -->
+        <section id="contact">
+            <div class="sectionhead">
+                <h2 class="mainhead">Contacts</h2>
+                <span class="subhead">My contacts</span>
+            </div>
+            <!-- icons -->
+
+            <div class="iconcollection">
+                <!-- linkedin -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                </div>
+                <!-- twitter -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                </div>
+
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                </div>
+                <!-- whatsapp -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                </div>
+                <!-- facebook -->
+                <div class="icon">
+                    <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+                </div>
+            </div>
+
+
+        </section>
+        <footer>
+            <p id="copyright">&copy;My portfolio website -june 2025,All Rights Reserved to &reg; binu babu</p>
+            <div class="icon uparrow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+            </div>
+        </footer>
+    </div>
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
